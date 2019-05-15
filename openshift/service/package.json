@@ -6,17 +6,15 @@
     "install": "npm audit --audit-level high"
   },
   "dependencies": {
-    "keycloak-connect": "4.0.0-beta.3",
-    "body-parser": "^1.13.3",
-    "express": "^4.13.3",
-    "express-session": "^1.14.2",
-    "cors": "^2.8.1"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "keycloak-connect": "4.0.0-beta.3"
   },
   "devDependencies": {
-    "keycloak-request-token": "^0.1.0",
-    "keycloak-client-registration": "^0.1.0",
-    "coveralls": "^2.11.9",
-    "eslint": "^3.3.1",
+    "coveralls": "^3.0.3",
+    "eslint": "^5.16.0",
     "eslint-config-semistandard": "^7.0.0-beta.0",
     "eslint-config-standard": "^6.0.0",
     "eslint-plugin-promise": "^3.3.0",
@@ -24,9 +22,11 @@
     "eslint-plugin-standard": "^2.0.0",
     "ink-docstrap": "^1.1.4",
     "istanbul": "^0.4.3",
-    "jsdoc": "^3.4.0",
-    "jshint": "^2.9.1",
-    "tape": "^4.5.1",
-    "roi": "^0.15.0"
+    "jsdoc": "^3.6.2",
+    "jshint": "^2.10.2",
+    "keycloak-client-registration": "^0.1.0",
+    "keycloak-request-token": "^0.1.0",
+    "roi": "^0.15.0",
+    "tape": "^4.10.1"
   }
 }
